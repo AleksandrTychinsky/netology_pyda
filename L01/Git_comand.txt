@@ -1,0 +1,35 @@
+	Открыть в удобной деректории
+
+C:\Users\aleks\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anaconda3 (64-bit)\Anaconda Prompt (anaconda3)
+cd C:\Users\aleks\OneDrive\Desktop\Netology
+jupyter notebook
+
+в папке с данными запустить git bash
+командами указать что папка является репозиторием
+git init - инициализация папки как локального дипозитория
+git config --global user.email "aleksandr.tychinsky@gmail.com"
+git config --global user.name "AleksandrTychinsky"
+
+git add	test.txt  - добавление файла под версионный контроль
+git status - показыват статус по файлам в дериктории
+
+git commit -m "my first commit" - добавление в локальный репозиторий
+git remote add origin https://github.com/AleksandrTychinsky/netology_pyda.git - связь локального репозитория с удаленным
+
+git remote -v  - проверка связки локального репозитория с удаленным 
+git push origin master  - передача изменений с локального репозитория на удаленный
+
+если файл изменили
+git add	test.txt
+git commit -m "my second commit"
+git push origin master
+
+git checkout -b my_first_branch - создание новой ветки и переключение на нее
+
+смерджить мастер и ветку изменений
+git checkout master - переключить на верку мастера
+git merge my_first_branch - мерджим
+git push origin master - пушим изменение
+
+
+клонирование репозитория
