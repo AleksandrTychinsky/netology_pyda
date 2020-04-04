@@ -15,7 +15,7 @@ git status - показыват статус по файлам в дерикто
 
 git commit -m "my first commit" - добавление в локальный репозиторий
 git remote add origin https://github.com/AleksandrTychinsky/netology_pyda.git - связь локального репозитория с удаленным
-
+	
 git remote -v  - проверка связки локального репозитория с удаленным 
 git push origin master  - передача изменений с локального репозитория на удаленный
 
@@ -33,3 +33,4 @@ git push origin master - пушим изменение
 
 
 клонирование репозитория
+
